@@ -2,6 +2,7 @@ a=4
 b=3
 c=5
 d=10
+
 A=a+b+c
 print(A)
 
