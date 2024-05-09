@@ -3,14 +3,18 @@ b=3
 c=5
 d=10
 
-A=a+b+c
-print(A)
+#Addition
+Sum=a+b+c
+print(Sum)
 
-S=c-b
-print(S)
+#Subtraction
+diff=c-b
+print(diff)
 
+#Multiplication
 M=b*c
 print(M)
 
+#Division
 D=d/c
 print(D)
