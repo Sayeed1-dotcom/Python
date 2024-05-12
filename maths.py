@@ -68,3 +68,69 @@ print("q =", q)
 
 
 #Logical operators (not,and,or)
+
+                      #not
+
+print(not True)
+a=20
+b=10
+print(not (a>b)) #answer will be: False
+
+                     #and
+A = True
+B = True
+print("1.AND operator :", A and B) #Answer will be: True
+
+A = True
+B = False
+print("2.AND operator :", A and B) #Answer will be: False
+
+A = False
+B = True
+print("3.AND operator :", A and B) #Answer will be: False
+
+A = False
+B = False
+print("4.AND operator :", A and B) #Answer will be: False
+
+                     #or
+C = True
+D = True 
+print ("1.OR operator :", C or D) #Answer will be: True
+
+C = True
+D = False
+print ("2.OR operator :", C or D) #Answer will be: True
+
+C = False
+D = True 
+print ("3.OR operator :", C or D) #Answer will be: True
+
+C = False
+D = False 
+print ("4.OR operator :", C or D) #Answer will be: False 
+
+
+#Multiple operators (relational & logical)
+
+a = 10
+b = 5
+c = 5
+
+print("1.Combined answer is :", (a>b) and (b==c) ) #Answer will be: True
+print("2.Combined answer is :", (a<b) and (b==c) ) #Answer will be: False
+print("3.Combined answer is :", (a>b) and (a>c) ) #Answer will be: True
+print("4.Combined answer is :", (a>b) and not(c>a) ) #Answer will be: True
+print("5.Combined answer is :", (a>b) or (a>c) ) #Answer will be: True
+print("6.Combined answer is :", (a>b) or (b>c) ) #Answer will be: True
+print("7.Combined answer is :", (a<b) or (a<c) ) #Answer will be: False
+
+
+#Type casting
+
+a = str("4")
+b = float(5)
+c = 2.526
+print(type (a))
+print("b value is :", b)
+print("b+c value is :", b+c)
