@@ -7,4 +7,3 @@ print("Welcome,", name)
 print("Full name :", fullname)
 print("You entered age is :", age)
 print("Your mobile number is :", number)
-
