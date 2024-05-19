@@ -1,3 +1,4 @@
+#use square bracket [] to define list
 marks = [95,96,97,98,"math"]
 
 print(marks)
@@ -27,20 +28,6 @@ print(marks)
 print(95 in marks) #True
 print(90 in marks) #False
 
-#for loop in list
-name = ["Ahnat","Afrin","Tanha"]
-for student in name:
-    print(student)
-print(len(name))
-
-#while loop in list
-fruits = ["apple","mango","orange"]
-
-i = 0
-while i < len(fruits):
-    print(fruits[i])
-    i+=1
-
 #to clean list
-fruits.clear()
-print(fruits)
+marks.clear()
+print(marks)
