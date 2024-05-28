@@ -13,4 +13,4 @@ print(marks.count(90))
 
 #to see the index of any numbers in tuple
 print(marks.index(96))
-
+print(marks.index(97))
